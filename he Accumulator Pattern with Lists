@@ -1,5 +1,15 @@
+#wrong code 
 verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
 blist = [ ]
 for item in verbs:
    blist.append(item+"ing")
 print(blist)
+
+#correct code
+verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
+past_wrds = []
+for i in verbs:
+    a = i + "ing"
+    b = past_wrds.append(a)
+print(b) 
+
