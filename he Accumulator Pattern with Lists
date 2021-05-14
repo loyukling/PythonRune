@@ -7,9 +7,8 @@ print(blist)
 
 #correct code
 verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
-past_wrds = []
+ing = []
 for i in verbs:
     a = i + "ing"
-    b = past_wrds.append(a)
+    b = ing.append(a)
 print(b) 
-
