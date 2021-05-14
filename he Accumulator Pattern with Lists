@@ -1,0 +1,5 @@
+verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
+blist = [ ]
+for item in verbs:
+   blist.append(item+"ing")
+print(blist)
